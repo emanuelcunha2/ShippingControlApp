@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ShippingControl_v8.Views.AllocationPage"
+             Title="AllocationPage"
+             BackgroundColor="#f2fff2">
+
+    <NavigationPage.TitleView>
+        <StackLayout VerticalOptions="Center">
+            <Label VerticalOptions="Center"
+                   Margin="0,0,0,0" 
+                   Text="ALOCAR PALETE/CAIXA" 
+                   FontSize="19"
+                   TextColor="White" 
+                   FontFamily="OpenSansSemibold"/>
+        </StackLayout>
+    </NavigationPage.TitleView>
+
+    <Grid>
+        <ScrollView>
+            <VerticalStackLayout Margin="0,0,0,60">
+                <!-- Clear Button -->
+                <Button Margin="12"
+                    HeightRequest="50"
+                    BackgroundColor="{StaticResource ThemeColor3}"
+                    Command="{Binding ResetButtonPressed}"
+                    Text="REINICIAR"
+                    FontFamily="OpenSansSemibold"
+                    FontSize="19"
+                    CornerRadius="5"/>
+
+                <!-- Clear Button -->
+                <Button Margin="12,0,12,12"
+                    HeightRequest="50"
+                    BackgroundColor="{StaticResource ThemeColor4}"
+                    Command="{Binding VerifyBin}"
+                    Text="VERIFICAR BINs"
+                    FontFamily="OpenSansSemibold"
+                    FontSize="19"
+                    CornerRadius="5"/>
+
+                <!-- Box/Pallet Data -->
+                <Border 
+                  Margin="12,0,12,12"
+                  StrokeThickness="0" 
+                  BackgroundColor="Transparent" 
+                  VerticalOptions="CenterAndExpand">
+                    <Border.Shadow>
+                        <Shadow Brush="Black"
+                        Offset="0,0"                                     
+                        Radius="20"                                       
+                        Opacity="0.2"/>
+                    </Border.Shadow>
+                    <Frame Padding="15,10,15,15" 
+                       Margin="0" 
+                       BorderColor="Transparent">
+
+                        <VerticalStackLayout>
+                            <!-- SubTitle -->
+                            <Label FontFamily="OpenSansSemibold"
+                               Grid.Column="0"
+                               FontSize="Small"
+                               Text="Palete/Caixa"
+                               TextColor="{StaticResource ThemeColor1}"
+                               Margin="0,0,0,0"></Label>
+
+                            <!-- PartNumber -->
+                            <Grid Margin="0,0,0,0">
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="*"></ColumnDefinition>
+                                    <ColumnDefinition Width="*"></ColumnDefinition>
+                                    <ColumnDefinition Width="*"></ColumnDefinition>
+                                </Grid.ColumnDefinitions>
+
+                                <Label 
+                                   Grid.Column="0" 
+                                   FontSize="Subtitle"
+                                   Padding="0"
+                                   Text="Part Number"
+                                   VerticalOptions="CenterAndExpand"
+                                   HorizontalOptions="Start"/>
+
+                                <Entry Text="{Binding tbPartNumber}" 
+                                   
+                                   Placeholder=""
+                                   Grid.Column="1" 
+                                   IsSpellCheckEnabled="False" 
+                                   Grid.ColumnSpan="2"
+                                   FontSize="Subtitle"
+                                   HorizontalOptions="FillAndExpand"
+                                   BackgroundColor="Transparent"/>
+                            </Grid>
+
+                            <!-- Box(es) -->
+                            <Grid Margin="0,0,0,0">
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="0.55*"></ColumnDefinition>
+                                    <ColumnDefinition Width="*"></ColumnDefinition>
+                                    <ColumnDefinition Width="*"></ColumnDefinition>
+                                </Grid.ColumnDefinitions>
+
+                                <Label 
+                                   Grid.Column="0" 
+                                   FontSize="Subtitle"
+                                   Padding="0"
+                                   Text="Caixa(s)"
+                                   VerticalOptions="CenterAndExpand"
+                                   HorizontalOptions="Start"/>
+
+                                <Entry Text="{Binding tbBox}" 
+                                   
+                                   Placeholder=""
+                                   Grid.Column="1" 
+                                   IsSpellCheckEnabled="False" 
+                                   Grid.ColumnSpan="1"
+                                   FontSize="Subtitle"
+                                   HorizontalOptions="FillAndExpand"
+                                   BackgroundColor="Transparent"
+                                   IsEnabled="False"/>
+
+                                <Button Grid.Column="2"
+                                    VerticalOptions="Center"
+                                    Padding="0"
+                                    HeightRequest="35"
+                                    BackgroundColor="{StaticResource ThemeColor1}"
+                                    Text="{Binding btBx}"
+                                    Command="{Binding OpenBoxesList}"
+                                    Margin="10,0,0,0"
+                                    CornerRadius="4"
+                                    FontFamily="OpenSansSemibold">
+
+                                </Button>
+                            </Grid>
+                        </VerticalStackLayout>
+                    </Frame>
+                </Border>
+
+
+                <!-- Bin Localization Data -->
+                <Border 
+                  Margin="12,0,12,12"
+                  StrokeThickness="0" 
+                  BackgroundColor="Transparent" 
+                  VerticalOptions="CenterAndExpand">
+                    <Border.Shadow>
+                        <Shadow Brush="Black"
+                        Offset="0,0"                                     
+                        Radius="20"                                       
+                        Opacity="0.2"/>
+                    </Border.Shadow>
+                    <Frame Padding="15,10,15,15" 
+                       Margin="0" 
+                       BorderColor="Transparent">
+
+                        <VerticalStackLayout>
+                            <!-- SubTitle -->
+                            <Label FontFamily="OpenSansSemibold"
+                               Grid.Column="0"
+                               FontSize="Small"
+                               Text="Localizações"
+                               TextColor="{StaticResource ThemeColor1}"
+                               Margin="0,0,0,0"></Label>
+
+                            <!-- Bin1 -->
+                            <Grid Margin="0,0,0,0">
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="0.3*"></ColumnDefinition>
+                                    <ColumnDefinition Width="1.9*"></ColumnDefinition>
+                                </Grid.ColumnDefinitions>
+
+                                <Label 
+                                   Grid.Column="0" 
+                                   FontSize="Subtitle"
+                                   Padding="0"
+                                   Text="Bin 1"
+                                   VerticalOptions="CenterAndExpand"
+                                   HorizontalOptions="Start"/>
+
+                                <Entry Text="{Binding tbBin1}" 
+                                   Placeholder=""
+                                   Grid.Column="1" 
+                                   IsSpellCheckEnabled="False" 
+                                   Grid.ColumnSpan="1"
+                                   FontSize="Subtitle"
+                                   HorizontalOptions="FillAndExpand"
+                                   BackgroundColor="Transparent"/>
+                            </Grid>
+
+                            <!-- Bin2 -->
+                            <Grid Margin="0,0,0,0">
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="0.3*"></ColumnDefinition> 
+                                    <ColumnDefinition Width="1.9*"></ColumnDefinition>
+                                </Grid.ColumnDefinitions>
+
+                                <Label 
+                                   Grid.Column="0" 
+                                   FontSize="Subtitle"
+                                   Padding="0"
+                                   Text="Bin 2"
+                                   VerticalOptions="CenterAndExpand"
+                                   HorizontalOptions="Start"/>
+
+                                <Entry Text="{Binding tbBin2}" 
+                                   
+                                   Placeholder=""
+                                   Grid.Column="1" 
+                                   IsSpellCheckEnabled="False" 
+                                   Grid.ColumnSpan="1"
+                                   FontSize="Subtitle"
+                                   HorizontalOptions="FillAndExpand"
+                                   BackgroundColor="Transparent"/>
+
+                          
+                            </Grid>
+
+                        </VerticalStackLayout>
+                    </Frame>
+                </Border>
+
+                 <!-- Functioning Tip -->
+                <Border  Margin="12,0,12,12" StrokeThickness="0" BackgroundColor="Transparent" VerticalOptions="CenterAndExpand">
+                    <Frame Padding="12"
+                           Margin="0"
+                           CornerRadius="0"
+                           BorderColor="Transparent"
+                           BackgroundColor="{StaticResource ThemeColor4}">
+                        <StackLayout Margin="3,0,0,0" Orientation="Horizontal">
+                            <Path Margin="0,0,12,0" Aspect="Uniform" HeightRequest="25" WidthRequest="25" Fill="White" Data="M12,24A12,12,0,1,0,0,12,12.013,12.013,0,0,0,12,24ZM12,5a1.5,1.5,0,1,1-1.5,1.5A1.5,1.5,0,0,1,12,5Zm-1,5h1a2,2,0,0,1,2,2v6a1,1,0,0,1-2,0V12H11a1,1,0,0,1,0-2Z"></Path>
+                            <Label WidthRequest="270" FontFamily="OpenSansSemibold" LineBreakMode="WordWrap" TextColor="White" FontSize="18" Padding="0" Text="{Binding lbResult, FallbackValue='RESULTADO'}" VerticalOptions="CenterAndExpand" HorizontalOptions="Start"></Label>
+                        </StackLayout>
+                    </Frame>
+                </Border>
+
+            </VerticalStackLayout>
+        </ScrollView>
+
+        <!-- Allocate Button -->
+        <Button Margin="0"
+                    HeightRequest="60"
+                    BackgroundColor="{StaticResource ThemeColor1}"
+                    Command="{Binding SaveButtonPressed}"
+                    Text="ALOCAR"
+                    FontFamily="OpenSansSemibold"
+                    FontSize="Title"
+                    VerticalOptions="End"
+                    CornerRadius="0"/>
+    </Grid>
+    
+</ContentPage>

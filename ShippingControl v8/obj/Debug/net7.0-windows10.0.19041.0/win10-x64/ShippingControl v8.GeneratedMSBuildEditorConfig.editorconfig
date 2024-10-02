@@ -1,0 +1,109 @@
+is_global = true
+build_property.TargetFramework = net7.0-windows10.0.19041.0
+build_property.TargetPlatformMinVersion = 10.0.17763.0
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = ShippingControl_v8
+build_property.ProjectDir = C:\VS_2022_PROJECTS\ShippingControl v8\ShippingControl v8\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+
+[C:/VS_2022_PROJECTS/ShippingControl v8/ShippingControl v8/App.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ShippingControl_v8.App.xaml
+build_metadata.AdditionalFiles.TargetPath = App.xaml
+build_metadata.AdditionalFiles.RelativePath = App.xaml
+
+[C:/VS_2022_PROJECTS/ShippingControl v8/ShippingControl v8/AppShell.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ShippingControl_v8.AppShell.xaml
+build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
+build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
+
+[C:/VS_2022_PROJECTS/ShippingControl v8/ShippingControl v8/Resources/Styles/Colors.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ShippingControl_v8.Resources.Styles.Colors.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
+
+[C:/VS_2022_PROJECTS/ShippingControl v8/ShippingControl v8/Resources/Styles/Styles.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ShippingControl_v8.Resources.Styles.Styles.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
+
+[C:/VS_2022_PROJECTS/ShippingControl v8/ShippingControl v8/Views/AllocationPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ShippingControl_v8.Views.AllocationPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\AllocationPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\AllocationPage.xaml
+
+[C:/VS_2022_PROJECTS/ShippingControl v8/ShippingControl v8/Views/BoxesPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ShippingControl_v8.Views.BoxesPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\BoxesPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\BoxesPage.xaml
+
+[C:/VS_2022_PROJECTS/ShippingControl v8/ShippingControl v8/Views/BoxQuantityPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ShippingControl_v8.Views.BoxQuantityPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\BoxQuantityPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\BoxQuantityPage.xaml
+
+[C:/VS_2022_PROJECTS/ShippingControl v8/ShippingControl v8/Views/DesallocationPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ShippingControl_v8.Views.DesallocationPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\DesallocationPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\DesallocationPage.xaml
+
+[C:/VS_2022_PROJECTS/ShippingControl v8/ShippingControl v8/Views/DocAllocationPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ShippingControl_v8.Views.DocAllocationPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\DocAllocationPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\DocAllocationPage.xaml
+
+[C:/VS_2022_PROJECTS/ShippingControl v8/ShippingControl v8/Views/FifoPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ShippingControl_v8.Views.FifoPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\FifoPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\FifoPage.xaml
+
+[C:/VS_2022_PROJECTS/ShippingControl v8/ShippingControl v8/Views/MainPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ShippingControl_v8.Views.MainPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\MainPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\MainPage.xaml
+
+[C:/VS_2022_PROJECTS/ShippingControl v8/ShippingControl v8/Views/NewPage1.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ShippingControl_v8.Views.NewPage1.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\NewPage1.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\NewPage1.xaml
+
+[C:/VS_2022_PROJECTS/ShippingControl v8/ShippingControl v8/Views/OptimizationPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ShippingControl_v8.Views.OptimizationPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\OptimizationPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\OptimizationPage.xaml
+
+[C:/VS_2022_PROJECTS/ShippingControl v8/ShippingControl v8/Views/SettingsPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ShippingControl_v8.Views.SettingsPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\SettingsPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\SettingsPage.xaml
+
+[C:/VS_2022_PROJECTS/ShippingControl v8/ShippingControl v8/Views/TransferPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ShippingControl_v8.Views.TransferPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\TransferPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\TransferPage.xaml
+
+[C:/VS_2022_PROJECTS/ShippingControl v8/ShippingControl v8/Views/UserScan.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ShippingControl_v8.Views.UserScan.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\UserScan.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\UserScan.xaml

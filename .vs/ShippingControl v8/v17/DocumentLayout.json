@@ -1,0 +1,305 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\VS_2022_PROJECTS\\ShippingControl v8\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B46FB292-2A4F-4252-8E17-2195EB63D00E}|ShippingControl v8\\ShippingControl v8.csproj|c:\\vs_2022_projects\\shippingcontrol v8\\shippingcontrol v8\\viewmodels\\desallocationviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B46FB292-2A4F-4252-8E17-2195EB63D00E}|ShippingControl v8\\ShippingControl v8.csproj|solutionrelative:shippingcontrol v8\\viewmodels\\desallocationviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B46FB292-2A4F-4252-8E17-2195EB63D00E}|ShippingControl v8\\ShippingControl v8.csproj|c:\\vs_2022_projects\\shippingcontrol v8\\shippingcontrol v8\\viewmodels\\fifoviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B46FB292-2A4F-4252-8E17-2195EB63D00E}|ShippingControl v8\\ShippingControl v8.csproj|solutionrelative:shippingcontrol v8\\viewmodels\\fifoviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B46FB292-2A4F-4252-8E17-2195EB63D00E}|ShippingControl v8\\ShippingControl v8.csproj|c:\\vs_2022_projects\\shippingcontrol v8\\shippingcontrol v8\\views\\fifopage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B46FB292-2A4F-4252-8E17-2195EB63D00E}|ShippingControl v8\\ShippingControl v8.csproj|solutionrelative:shippingcontrol v8\\views\\fifopage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B46FB292-2A4F-4252-8E17-2195EB63D00E}|ShippingControl v8\\ShippingControl v8.csproj|c:\\vs_2022_projects\\shippingcontrol v8\\shippingcontrol v8\\viewmodels\\settingsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B46FB292-2A4F-4252-8E17-2195EB63D00E}|ShippingControl v8\\ShippingControl v8.csproj|solutionrelative:shippingcontrol v8\\viewmodels\\settingsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B46FB292-2A4F-4252-8E17-2195EB63D00E}|ShippingControl v8\\ShippingControl v8.csproj|c:\\vs_2022_projects\\shippingcontrol v8\\shippingcontrol v8\\views\\settingspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{B46FB292-2A4F-4252-8E17-2195EB63D00E}|ShippingControl v8\\ShippingControl v8.csproj|solutionrelative:shippingcontrol v8\\views\\settingspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B46FB292-2A4F-4252-8E17-2195EB63D00E}|ShippingControl v8\\ShippingControl v8.csproj|c:\\vs_2022_projects\\shippingcontrol v8\\shippingcontrol v8\\models\\fifo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B46FB292-2A4F-4252-8E17-2195EB63D00E}|ShippingControl v8\\ShippingControl v8.csproj|solutionrelative:shippingcontrol v8\\models\\fifo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B46FB292-2A4F-4252-8E17-2195EB63D00E}|ShippingControl v8\\ShippingControl v8.csproj|c:\\vs_2022_projects\\shippingcontrol v8\\shippingcontrol v8\\viewmodels\\allocationviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B46FB292-2A4F-4252-8E17-2195EB63D00E}|ShippingControl v8\\ShippingControl v8.csproj|solutionrelative:shippingcontrol v8\\viewmodels\\allocationviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B46FB292-2A4F-4252-8E17-2195EB63D00E}|ShippingControl v8\\ShippingControl v8.csproj|c:\\vs_2022_projects\\shippingcontrol v8\\shippingcontrol v8\\views\\docallocationpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B46FB292-2A4F-4252-8E17-2195EB63D00E}|ShippingControl v8\\ShippingControl v8.csproj|solutionrelative:shippingcontrol v8\\views\\docallocationpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B46FB292-2A4F-4252-8E17-2195EB63D00E}|ShippingControl v8\\ShippingControl v8.csproj|c:\\vs_2022_projects\\shippingcontrol v8\\shippingcontrol v8\\viewmodels\\boxesviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B46FB292-2A4F-4252-8E17-2195EB63D00E}|ShippingControl v8\\ShippingControl v8.csproj|solutionrelative:shippingcontrol v8\\viewmodels\\boxesviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B46FB292-2A4F-4252-8E17-2195EB63D00E}|ShippingControl v8\\ShippingControl v8.csproj|c:\\vs_2022_projects\\shippingcontrol v8\\shippingcontrol v8\\views\\allocationpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B46FB292-2A4F-4252-8E17-2195EB63D00E}|ShippingControl v8\\ShippingControl v8.csproj|solutionrelative:shippingcontrol v8\\views\\allocationpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B46FB292-2A4F-4252-8E17-2195EB63D00E}|ShippingControl v8\\ShippingControl v8.csproj|c:\\vs_2022_projects\\shippingcontrol v8\\shippingcontrol v8\\viewmodels\\docallocationviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B46FB292-2A4F-4252-8E17-2195EB63D00E}|ShippingControl v8\\ShippingControl v8.csproj|solutionrelative:shippingcontrol v8\\viewmodels\\docallocationviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B46FB292-2A4F-4252-8E17-2195EB63D00E}|ShippingControl v8\\ShippingControl v8.csproj|c:\\vs_2022_projects\\shippingcontrol v8\\shippingcontrol v8\\views\\docallocationpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{B46FB292-2A4F-4252-8E17-2195EB63D00E}|ShippingControl v8\\ShippingControl v8.csproj|solutionrelative:shippingcontrol v8\\views\\docallocationpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B46FB292-2A4F-4252-8E17-2195EB63D00E}|ShippingControl v8\\ShippingControl v8.csproj|c:\\vs_2022_projects\\shippingcontrol v8\\shippingcontrol v8\\views\\desallocationpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{B46FB292-2A4F-4252-8E17-2195EB63D00E}|ShippingControl v8\\ShippingControl v8.csproj|solutionrelative:shippingcontrol v8\\views\\desallocationpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B46FB292-2A4F-4252-8E17-2195EB63D00E}|ShippingControl v8\\ShippingControl v8.csproj|c:\\vs_2022_projects\\shippingcontrol v8\\shippingcontrol v8\\views\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{B46FB292-2A4F-4252-8E17-2195EB63D00E}|ShippingControl v8\\ShippingControl v8.csproj|solutionrelative:shippingcontrol v8\\views\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B46FB292-2A4F-4252-8E17-2195EB63D00E}|ShippingControl v8\\ShippingControl v8.csproj|c:\\vs_2022_projects\\shippingcontrol v8\\shippingcontrol v8\\views\\fifopage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{B46FB292-2A4F-4252-8E17-2195EB63D00E}|ShippingControl v8\\ShippingControl v8.csproj|solutionrelative:shippingcontrol v8\\views\\fifopage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B46FB292-2A4F-4252-8E17-2195EB63D00E}|ShippingControl v8\\ShippingControl v8.csproj|c:\\vs_2022_projects\\shippingcontrol v8\\shippingcontrol v8\\views\\allocationpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{B46FB292-2A4F-4252-8E17-2195EB63D00E}|ShippingControl v8\\ShippingControl v8.csproj|solutionrelative:shippingcontrol v8\\views\\allocationpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 103,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DesallocationViewModel.cs",
+              "DocumentMoniker": "C:\\VS_2022_PROJECTS\\ShippingControl v8\\ShippingControl v8\\ViewModels\\DesallocationViewModel.cs",
+              "RelativeDocumentMoniker": "ShippingControl v8\\ViewModels\\DesallocationViewModel.cs",
+              "ToolTip": "C:\\VS_2022_PROJECTS\\ShippingControl v8\\ShippingControl v8\\ViewModels\\DesallocationViewModel.cs",
+              "RelativeToolTip": "ShippingControl v8\\ViewModels\\DesallocationViewModel.cs",
+              "ViewState": "AQIAAJwBAAAAAAAAAAAgwKwBAABHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-07T11:27:51.441Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FifoPage.xaml.cs",
+              "DocumentMoniker": "C:\\VS_2022_PROJECTS\\ShippingControl v8\\ShippingControl v8\\Views\\FifoPage.xaml.cs",
+              "RelativeDocumentMoniker": "ShippingControl v8\\Views\\FifoPage.xaml.cs",
+              "ToolTip": "C:\\VS_2022_PROJECTS\\ShippingControl v8\\ShippingControl v8\\Views\\FifoPage.xaml.cs",
+              "RelativeToolTip": "ShippingControl v8\\Views\\FifoPage.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-11T14:11:34.054Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "SettingsViewModel.cs",
+              "DocumentMoniker": "C:\\VS_2022_PROJECTS\\ShippingControl v8\\ShippingControl v8\\ViewModels\\SettingsViewModel.cs",
+              "RelativeDocumentMoniker": "ShippingControl v8\\ViewModels\\SettingsViewModel.cs",
+              "ToolTip": "C:\\VS_2022_PROJECTS\\ShippingControl v8\\ShippingControl v8\\ViewModels\\SettingsViewModel.cs",
+              "RelativeToolTip": "ShippingControl v8\\ViewModels\\SettingsViewModel.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAA5wBwAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-01-24T09:50:53.563Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "SettingsPage.xaml",
+              "DocumentMoniker": "C:\\VS_2022_PROJECTS\\ShippingControl v8\\ShippingControl v8\\Views\\SettingsPage.xaml",
+              "RelativeDocumentMoniker": "ShippingControl v8\\Views\\SettingsPage.xaml",
+              "ToolTip": "C:\\VS_2022_PROJECTS\\ShippingControl v8\\ShippingControl v8\\Views\\SettingsPage.xaml",
+              "RelativeToolTip": "ShippingControl v8\\Views\\SettingsPage.xaml",
+              "ViewState": "AQIAADwAAAAAAAAAAIBJwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-01-24T09:50:46.272Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FifoViewModel.cs",
+              "DocumentMoniker": "C:\\VS_2022_PROJECTS\\ShippingControl v8\\ShippingControl v8\\ViewModels\\FifoViewModel.cs",
+              "RelativeDocumentMoniker": "ShippingControl v8\\ViewModels\\FifoViewModel.cs",
+              "ToolTip": "C:\\VS_2022_PROJECTS\\ShippingControl v8\\ShippingControl v8\\ViewModels\\FifoViewModel.cs",
+              "RelativeToolTip": "ShippingControl v8\\ViewModels\\FifoViewModel.cs",
+              "ViewState": "AQIAAMoCAAAAAAAAAAAgwJkCAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-12-12T09:27:11.24Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Fifo.cs",
+              "DocumentMoniker": "C:\\VS_2022_PROJECTS\\ShippingControl v8\\ShippingControl v8\\Models\\Fifo.cs",
+              "RelativeDocumentMoniker": "ShippingControl v8\\Models\\Fifo.cs",
+              "ToolTip": "C:\\VS_2022_PROJECTS\\ShippingControl v8\\ShippingControl v8\\Models\\Fifo.cs",
+              "RelativeToolTip": "ShippingControl v8\\Models\\Fifo.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-12-12T09:27:06.631Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "BoxesViewModel.cs",
+              "DocumentMoniker": "C:\\VS_2022_PROJECTS\\ShippingControl v8\\ShippingControl v8\\ViewModels\\BoxesViewModel.cs",
+              "RelativeDocumentMoniker": "ShippingControl v8\\ViewModels\\BoxesViewModel.cs",
+              "ToolTip": "C:\\VS_2022_PROJECTS\\ShippingControl v8\\ShippingControl v8\\ViewModels\\BoxesViewModel.cs",
+              "RelativeToolTip": "ShippingControl v8\\ViewModels\\BoxesViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-11-30T09:27:02.361Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "MainPage.xaml",
+              "DocumentMoniker": "C:\\VS_2022_PROJECTS\\ShippingControl v8\\ShippingControl v8\\Views\\MainPage.xaml",
+              "RelativeDocumentMoniker": "ShippingControl v8\\Views\\MainPage.xaml",
+              "ToolTip": "C:\\VS_2022_PROJECTS\\ShippingControl v8\\ShippingControl v8\\Views\\MainPage.xaml",
+              "RelativeToolTip": "ShippingControl v8\\Views\\MainPage.xaml",
+              "ViewState": "AQIAACABAAAAAAAAAAAUwCoBAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2023-11-29T07:16:17.925Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "DocAllocationPage.xaml.cs",
+              "DocumentMoniker": "C:\\VS_2022_PROJECTS\\ShippingControl v8\\ShippingControl v8\\Views\\DocAllocationPage.xaml.cs",
+              "RelativeDocumentMoniker": "ShippingControl v8\\Views\\DocAllocationPage.xaml.cs",
+              "ToolTip": "C:\\VS_2022_PROJECTS\\ShippingControl v8\\ShippingControl v8\\Views\\DocAllocationPage.xaml.cs",
+              "RelativeToolTip": "ShippingControl v8\\Views\\DocAllocationPage.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-11-28T20:14:06.805Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "DesallocationPage.xaml",
+              "DocumentMoniker": "C:\\VS_2022_PROJECTS\\ShippingControl v8\\ShippingControl v8\\Views\\DesallocationPage.xaml",
+              "RelativeDocumentMoniker": "ShippingControl v8\\Views\\DesallocationPage.xaml",
+              "ToolTip": "C:\\VS_2022_PROJECTS\\ShippingControl v8\\ShippingControl v8\\Views\\DesallocationPage.xaml",
+              "RelativeToolTip": "ShippingControl v8\\Views\\DesallocationPage.xaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAIBJwBIAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2023-11-28T20:14:03.174Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AllocationPage.xaml.cs",
+              "DocumentMoniker": "C:\\VS_2022_PROJECTS\\ShippingControl v8\\ShippingControl v8\\Views\\AllocationPage.xaml.cs",
+              "RelativeDocumentMoniker": "ShippingControl v8\\Views\\AllocationPage.xaml.cs",
+              "ToolTip": "C:\\VS_2022_PROJECTS\\ShippingControl v8\\ShippingControl v8\\Views\\AllocationPage.xaml.cs",
+              "RelativeToolTip": "ShippingControl v8\\Views\\AllocationPage.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-11-28T20:13:00.391Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "AllocationPage.xaml",
+              "DocumentMoniker": "C:\\VS_2022_PROJECTS\\ShippingControl v8\\ShippingControl v8\\Views\\AllocationPage.xaml",
+              "RelativeDocumentMoniker": "ShippingControl v8\\Views\\AllocationPage.xaml",
+              "ToolTip": "C:\\VS_2022_PROJECTS\\ShippingControl v8\\ShippingControl v8\\Views\\AllocationPage.xaml",
+              "RelativeToolTip": "ShippingControl v8\\Views\\AllocationPage.xaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2023-11-28T20:12:58.536Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AllocationViewModel.cs",
+              "DocumentMoniker": "C:\\VS_2022_PROJECTS\\ShippingControl v8\\ShippingControl v8\\ViewModels\\AllocationViewModel.cs",
+              "RelativeDocumentMoniker": "ShippingControl v8\\ViewModels\\AllocationViewModel.cs",
+              "ToolTip": "C:\\VS_2022_PROJECTS\\ShippingControl v8\\ShippingControl v8\\ViewModels\\AllocationViewModel.cs",
+              "RelativeToolTip": "ShippingControl v8\\ViewModels\\AllocationViewModel.cs",
+              "ViewState": "AQIAAAgCAAAAAAAAAAAqwBsCAAA4AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-11-28T20:06:43.018Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "DocAllocationPage.xaml",
+              "DocumentMoniker": "C:\\VS_2022_PROJECTS\\ShippingControl v8\\ShippingControl v8\\Views\\DocAllocationPage.xaml",
+              "RelativeDocumentMoniker": "ShippingControl v8\\Views\\DocAllocationPage.xaml",
+              "ToolTip": "C:\\VS_2022_PROJECTS\\ShippingControl v8\\ShippingControl v8\\Views\\DocAllocationPage.xaml",
+              "RelativeToolTip": "ShippingControl v8\\Views\\DocAllocationPage.xaml",
+              "ViewState": "AQIAAHwAAAAAAAAAAAAEwI4AAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2023-11-28T19:59:08.392Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "DocAllocationViewModel.cs",
+              "DocumentMoniker": "C:\\VS_2022_PROJECTS\\ShippingControl v8\\ShippingControl v8\\ViewModels\\DocAllocationViewModel.cs",
+              "RelativeDocumentMoniker": "ShippingControl v8\\ViewModels\\DocAllocationViewModel.cs",
+              "ToolTip": "C:\\VS_2022_PROJECTS\\ShippingControl v8\\ShippingControl v8\\ViewModels\\DocAllocationViewModel.cs",
+              "RelativeToolTip": "ShippingControl v8\\ViewModels\\DocAllocationViewModel.cs",
+              "ViewState": "AQIAAIMBAAAAAAAAAAAAwJkBAABWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-11-28T19:59:05.155Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "FifoPage.xaml",
+              "DocumentMoniker": "C:\\VS_2022_PROJECTS\\ShippingControl v8\\ShippingControl v8\\Views\\FifoPage.xaml",
+              "RelativeDocumentMoniker": "ShippingControl v8\\Views\\FifoPage.xaml",
+              "ToolTip": "C:\\VS_2022_PROJECTS\\ShippingControl v8\\ShippingControl v8\\Views\\FifoPage.xaml",
+              "RelativeToolTip": "ShippingControl v8\\Views\\FifoPage.xaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2023-11-29T07:57:13.196Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 458,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 65,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:converters="clr-namespace:ShippingControl_v8.Converters"
+             x:Class="ShippingControl_v8.Views.OptimizationPage"
+             Title="OptimizationPage">
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <converters:SubtractConverter  x:Key="SubtractConverter"></converters:SubtractConverter>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+    <NavigationPage.TitleView>
+        <StackLayout VerticalOptions="Center">
+            <Label VerticalOptions="Center"
+                   Margin="0,0,0,0" 
+                   Text="OTIMIZAÇÃO ESPAÇO MIB3" 
+                   FontSize="19"
+                   TextColor="White" 
+                   FontFamily="OpenSansSemibold"/>
+        </StackLayout>
+    </NavigationPage.TitleView>
+    <Grid>
+        <StackLayout x:Name="MainStackLayout">
+            <StackLayout IsVisible="{Binding ShowEveryPn}">
+
+                <!-- Table Title -->
+                <StackLayout BackgroundColor="{StaticResource ThemeColor4}" HeightRequest="45" Margin="0,0,0,0">
+                    <Grid VerticalOptions="CenterAndExpand">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*"></ColumnDefinition>
+                            <ColumnDefinition Width="*"></ColumnDefinition>
+                        </Grid.ColumnDefinitions>
+                        <Label Grid.Column="0" Text="PART NUMBER" TextColor="White" FontSize="Subtitle" FontFamily="OpenSansSemibold" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" Margin="5"></Label>
+                        <Label Grid.Column="1" Text="QUANTIDADE BINs" TextColor="White" FontSize="Subtitle" FontFamily="OpenSansSemibold" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" Margin="5"></Label>
+                    </Grid>
+                </StackLayout>
+
+                <CollectionView x:Name="CollectionViewPn" ItemsSource="{Binding AllocationPriorityItems}" HeightRequest="468" VerticalScrollBarVisibility="Never" Margin="0,0,0,0" SelectionMode="None">
+                    <CollectionView.ItemTemplate>
+                        <DataTemplate>
+                            <StackLayout HeightRequest="56" BackgroundColor="#fafafa">
+                                <StackLayout.GestureRecognizers>
+                                    <TapGestureRecognizer 
+                                                            Command="{Binding BindingContext.ClickedPartNumber, Source={RelativeSource AncestorType={x:Type CollectionView}}}"
+                                                            CommandParameter="{Binding}"
+                                                            NumberOfTapsRequired="1" />
+                                </StackLayout.GestureRecognizers> 
+                                <Grid VerticalOptions="CenterAndExpand">
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="*"></ColumnDefinition>
+                                        <ColumnDefinition Width="*"></ColumnDefinition>
+                                    </Grid.ColumnDefinitions>
+                                    <Label Grid.Column="0" FontSize="15" Text="{Binding PartNumber}" FontFamily="OpenSansBold" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" Margin="5" ></Label>
+                                    <Label Grid.Column="1" FontSize="15" Text="{Binding NumBins}" FontFamily="OpenSansBold" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" Margin="5"></Label>
+                                </Grid>
+                                <BoxView HeightRequest="1"  CornerRadius="2" Color="#ebebeb"></BoxView>
+                            </StackLayout>
+                        </DataTemplate>
+                    </CollectionView.ItemTemplate>
+                </CollectionView>
+             
+            </StackLayout>
+
+
+
+ 
+            <StackLayout IsVisible="{Binding ShowOnePn}">
+                <Grid>
+
+                    <StackLayout>
+                        <!-- Table Title -->
+                        <StackLayout BackgroundColor="{StaticResource ThemeColor1}" HeightRequest="45" Margin="0,0,0,0">
+                            <Grid VerticalOptions="CenterAndExpand">
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="1.5*"></ColumnDefinition>
+                                    <ColumnDefinition Width="*"></ColumnDefinition>
+                                    <ColumnDefinition Width="*"></ColumnDefinition>
+                                    <ColumnDefinition Width="*"></ColumnDefinition>
+                                </Grid.ColumnDefinitions>
+                                <Label Grid.Column="0" Text="PART NUM." TextColor="White" FontSize="Subtitle" FontFamily="OpenSansSemibold" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" Margin="5"></Label>
+                                <Label Grid.Column="1" Text="BIN" TextColor="White" FontSize="Subtitle" FontFamily="OpenSansSemibold" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" Margin="5"></Label>
+                                <Label Grid.Column="2" Text="CAIXAS" TextColor="White" FontSize="Subtitle" FontFamily="OpenSansSemibold" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" Margin="5"></Label>
+                                <Label Grid.Column="3" Text="TIPO" TextColor="White" FontSize="Subtitle" FontFamily="OpenSansSemibold" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" Margin="5"></Label>
+                            </Grid>
+                        </StackLayout>
+
+                        <CollectionView ItemsSource="{Binding AllocationPriorityItems}" HeightRequest="418" VerticalScrollBarVisibility="Never" VerticalOptions="FillAndExpand" Margin="0,0,0,0" SelectionMode="None">
+                            <CollectionView.ItemTemplate>
+                                <DataTemplate>
+                                    <StackLayout HeightRequest="56" BackgroundColor="#fafafa">
+                                        <Grid VerticalOptions="CenterAndExpand">
+                                            <Grid.ColumnDefinitions>
+                                                <ColumnDefinition Width="1.5*"></ColumnDefinition>
+                                                <ColumnDefinition Width="*"></ColumnDefinition>
+                                                <ColumnDefinition Width="*"></ColumnDefinition>
+                                                <ColumnDefinition Width="*"></ColumnDefinition>
+                                            </Grid.ColumnDefinitions>
+                                            <Label Grid.Column="0" FontSize="15" Text="{Binding PartNumber}" FontFamily="OpenSansBold" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" Margin="5" ></Label>
+                                            <Label Grid.Column="1" FontSize="15" Text="{Binding Bin}" FontFamily="OpenSansBold" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" Margin="5"></Label>
+                                            <StackLayout Grid.Column="2"  Margin="5"  Orientation="Horizontal" HorizontalOptions="Center">
+                                                <Label FontSize="15" Text="{Binding CountBoxes}" FontFamily="OpenSansBold" HorizontalTextAlignment="Start" VerticalTextAlignment="Center"></Label>
+                                                <Label FontSize="15" Text="/" FontFamily="OpenSansBold" HorizontalTextAlignment="Start" VerticalTextAlignment="Center"></Label>
+                                                <Label FontSize="15" Text="{Binding MaxBoxes}" FontFamily="OpenSansBold" HorizontalTextAlignment="Start" VerticalTextAlignment="Center"></Label>
+                                            </StackLayout>
+                                            <Label Grid.Column="3" FontSize="15" Text="{Binding BoxType}" FontFamily="OpenSansBold" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" Margin="5"></Label>
+                                        </Grid>
+                                        <BoxView HeightRequest="1"  CornerRadius="2" Color="#ebebeb"></BoxView>
+                                    </StackLayout>
+                                </DataTemplate>
+                            </CollectionView.ItemTemplate>
+                        </CollectionView>
+
+                    </StackLayout>
+
+                </Grid>
+             
+            </StackLayout>
+        </StackLayout>
+
+        <StackLayout  IsVisible="{Binding ShowOnePn}" BackgroundColor="{StaticResource ThemeColor3}"  HeightRequest="50" Orientation="Horizontal" VerticalOptions="EndAndExpand">
+            <StackLayout.GestureRecognizers>
+                <TapGestureRecognizer Command="{Binding ChangeBoxesOrdination}"></TapGestureRecognizer>
+            </StackLayout.GestureRecognizers>
+
+            <Label VerticalOptions="Center"
+                       Margin="0,0,0,0" 
+                       Text="VOLTAR" 
+                       FontSize="19"
+                       HorizontalOptions="CenterAndExpand"
+                       TextColor="White" 
+                       FontFamily="OpenSansSemibold"/>
+        </StackLayout>
+    </Grid>
+</ContentPage>

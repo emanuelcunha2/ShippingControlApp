@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ShippingControl_v8.Views.BoxQuantityPage"
+             Title="BoxQuantityPage" BackgroundColor="Transparent">
+
+
+    <VerticalStackLayout VerticalOptions="Center">
+
+        <!-- Box/Pallet Data -->
+        <Border 
+                  Margin="12,12,12,12"
+                  StrokeThickness="0" 
+                  BackgroundColor="Transparent" 
+                  VerticalOptions="CenterAndExpand">
+            <Border.Shadow>
+                <Shadow Brush="Black"
+                        Offset="0,0"                                     
+                        Radius="20"                                       
+                        Opacity="0.6"/>
+            </Border.Shadow>
+            <Frame Padding="20" 
+                       Margin="0" 
+                       BorderColor="Transparent">
+
+                <VerticalStackLayout>
+
+                    <Grid Margin="0,0,0,5">
+                        <!-- Close Page -->
+                        <StackLayout>
+                            <StackLayout.GestureRecognizers>
+                                <TapGestureRecognizer Command="{Binding CloseModal}"/>
+                            </StackLayout.GestureRecognizers>
+                            <Path BackgroundColor="Transparent"
+                                  HorizontalOptions="End" 
+                                  Aspect="Uniform" 
+                                  HeightRequest="21" WidthRequest="21" 
+                                  Fill="LightGray"
+                                  Data="M18,6h0a1,1,0,0,0-1.414,0L12,10.586,7.414,6A1,1,0,0,0,6,6H6A1,1,0,0,0,6,7.414L10.586,12,6,16.586A1,1,0,0,0,6,18H6a1,1,0,0,0,1.414,0L12,13.414,16.586,18A1,1,0,0,0,18,18h0a1,1,0,0,0,0-1.414L13.414,12,18,7.414A1,1,0,0,0,18,6Z"></Path>
+                        </StackLayout>
+
+                        <!-- SubTitle -->
+                        <Label FontFamily="OpenSansSemibold"
+                               Grid.Column="0"
+                               FontSize="19"
+                               Text="Quantidade modulos"
+                               TextColor="{StaticResource ThemeColor1}"
+                               Margin="0,0,0,0"></Label>
+                    </Grid>
+
+                    <!-- Confirm Button -->
+                    <Button Margin="0,20,0,0"
+                    BackgroundColor="{StaticResource ThemeColor1}"
+                    Command="{Binding ConfirmModal}"
+                    Text="CONFIRMAR"
+                    FontFamily="OpenSansSemibold"
+                    FontSize="19"
+                    VerticalOptions="End"
+                    CornerRadius="5"/>
+                </VerticalStackLayout>
+            </Frame>
+        </Border>
+    </VerticalStackLayout>
+
+</ContentPage>

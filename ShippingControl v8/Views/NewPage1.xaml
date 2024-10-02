@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ShippingControl_v8.Views.NewPage1"
+             Title="NewPage1" BackgroundColor="#33000000"  > 
+    <VerticalStackLayout VerticalOptions="Center">
+
+        <!-- Box/Pallet Data -->
+        <Border 
+                  Margin="12,12,12,12"
+                  StrokeThickness="0" 
+                  BackgroundColor="Transparent" 
+                  VerticalOptions="CenterAndExpand">
+            <Border.Shadow>
+                <Shadow Brush="Black"
+                        Offset="0,0"                                     
+                        Radius="20"                                       
+                        Opacity="0.6"/>
+            </Border.Shadow>
+            <Frame Padding="20" 
+                       Margin="0" 
+                       BorderColor="Transparent">
+
+                <VerticalStackLayout>
+
+                    <!-- SubTitle -->
+                    <Label FontFamily="OpenSansSemibold"
+                               Grid.Column="0"
+                               FontSize="18"
+                               Text="Ler o número de cartão"
+                               TextColor="{StaticResource ThemeColor1}"
+                               Margin="0,0,0,0"></Label>
+
+                    <Entry Margin="0,5,0,0" x:Name="CardNrEntry" Placeholder="(XXXX)" Keyboard="Numeric" FontSize="19" TextChanged="CardNrEntry_TextChanged" IsReadOnly="true">
+                        
+                    </Entry>
+                    
+                    <!-- Confirm Button -->
+                    <Button Margin="0,30,0,0"
+                                BackgroundColor="{StaticResource ThemeColor1}"
+                                Text="CONFIRMAR"
+                                Clicked="Button_Clicked"
+                                FontFamily="OpenSansSemibold"
+                                
+                                FontSize="18"
+                                VerticalOptions="End"
+                                CornerRadius="5"/>
+                    
+                </VerticalStackLayout>
+            </Frame>
+        </Border>
+    </VerticalStackLayout>
+</ContentPage>

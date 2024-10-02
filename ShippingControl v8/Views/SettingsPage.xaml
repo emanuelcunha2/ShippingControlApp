@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ShippingControl_v8.Views.SettingsPage"
+             Title="Settings">
+
+    <NavigationPage.TitleView>
+        <StackLayout VerticalOptions="Center">
+            <Label VerticalOptions="Center"
+                   Margin="0,0,0,0" 
+                   Text="CONFIGURAÇÕES" 
+                   FontSize="19"
+                   TextColor="White" 
+                   FontFamily="OpenSansSemibold"/>
+        </StackLayout>
+    </NavigationPage.TitleView>
+
+
+    <ScrollView>
+        <VerticalStackLayout>
+            <!-- Table Bin -->
+            <Border   Margin="12,12,12,12"
+                  StrokeThickness="0"
+                  BackgroundColor="Transparent"  
+                  IsVisible="{Binding JustReadBin}">
+                <Border.Shadow>
+                    <Shadow Brush="Black"
+                        Offset="0,0"                                     
+                        Radius="20"                                       
+                        Opacity="0.2"/>
+                </Border.Shadow>
+
+                <Frame CornerRadius="10" Padding="15,12,15,15" BorderColor="Transparent">
+                    <VerticalStackLayout>
+                        <!-- SubTitle -->
+                        <Label FontFamily="OpenSansSemibold"
+                               Grid.Column="0"
+                               FontSize="Small"
+                               Text="Configurações Necessárias"
+                               TextColor="{StaticResource ThemeColor1}"
+                               Margin="0,0,0,0"></Label>
+
+                        <!-- workplace -->
+                        <StackLayout Orientation="Horizontal">
+                            <Label 
+                            Text="Posto"
+                            VerticalOptions="Center" 
+                            HorizontalOptions="Center" />
+                            <Entry Margin="12,0,0,0"  HorizontalOptions="FillAndExpand" Text="{Binding Settings.posto}"/>
+                        </StackLayout>
+
+                        <!-- ip -->
+                        <StackLayout Orientation="Horizontal">
+                            <Label 
+                            Text="Servidor(IP)"
+                            VerticalOptions="Center" 
+                            HorizontalOptions="Center" />
+                            <Entry Margin="12,0,0,0"  HorizontalOptions="FillAndExpand" Text="{Binding Settings.szIPSelected}"/>
+                        </StackLayout>
+
+                        <!-- DB -->
+                        <StackLayout Orientation="Horizontal">
+                            <Label 
+                            Text="SQL Database"
+                            VerticalOptions="Center" 
+                            HorizontalOptions="Center" />
+                            <Entry Margin="12,0,0,0"  HorizontalOptions="FillAndExpand" Text="{Binding Settings.sDB}"/>
+                        </StackLayout>
+
+                        <!-- DB User -->
+                        <StackLayout Orientation="Horizontal">
+                            <Label 
+                            Text="Database (User)"
+                            VerticalOptions="Center" 
+                            HorizontalOptions="Center" />
+                            <Entry Margin="12,0,0,0"  HorizontalOptions="FillAndExpand" Text="{Binding Settings.sUser}"/>
+                        </StackLayout>
+
+                        <!-- Printer Ip -->
+                        <StackLayout Orientation="Horizontal">
+                            <Label 
+                            Text="Impressora (IP)"
+                            VerticalOptions="Center" 
+                            HorizontalOptions="Center" />
+                            <Entry Margin="12,0,0,0"  HorizontalOptions="FillAndExpand" Text="{Binding Settings.sPrinter}"/>
+                        </StackLayout>
+
+                        <StackLayout Orientation="Horizontal">
+                            <Label 
+                            Text="Edificio"
+                            VerticalOptions="Center" 
+                            HorizontalOptions="Center" />
+
+                            <Picker Title="Selecionar Edificio" Margin="12,0,0,0" HorizontalOptions="FillAndExpand" SelectedIndex="{Binding Settings.iLocal}">
+                                <Picker.ItemsSource>
+                                    <x:Array Type="{x:Type x:String}">
+                                        <x:String>Edificio 1 - Venda</x:String>
+                                        <x:String>Armazem</x:String>
+                                        <x:String>Edificio 2 -Venda</x:String>
+                                        <x:String>Edificio 2 -Passthrough</x:String>
+                                        <x:String>Edificio 4</x:String>
+                                        <x:String>Venda + Expedicao- Deposito SAP</x:String>
+                                        <x:String>Edificio 2 -Plasticos</x:String>
+                                    </x:Array>
+                                </Picker.ItemsSource>
+                            </Picker>
+                        </StackLayout>
+
+                    </VerticalStackLayout>
+
+
+                </Frame>
+            </Border>
+
+            <Button Margin="12,0,12,12"
+                    HeightRequest="50"
+                    BackgroundColor="{StaticResource ThemeColor1}"
+                    Command="{Binding SaveSettings}"
+                    Text="GUARDAR"
+                    FontFamily="OpenSansSemibold"
+                    FontSize="19"
+                    CornerRadius="5"/>
+
+
+            <Button Margin="12,0,12,12"
+                    HeightRequest="50"
+                    BackgroundColor="{StaticResource ThemeColor3}"
+                    Command="{Binding DefaultSettings}"
+                    Text="DEFAULT"
+                    FontFamily="OpenSansSemibold"
+                    FontSize="19"
+                    CornerRadius="5"/>
+
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

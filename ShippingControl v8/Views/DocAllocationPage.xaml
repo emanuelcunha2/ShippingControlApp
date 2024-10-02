@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ShippingControl_v8.Views.DocAllocationPage"
+             Title="DocAllocationPage"
+             BackgroundColor="#fff7f2">
+
+    <NavigationPage.TitleView>
+        <StackLayout VerticalOptions="Center">
+            <Label VerticalOptions="Center"
+                   Margin="0,0,0,0" 
+                   Text="ALOCAR CAIXAS DE DOC." 
+                   FontSize="19"
+                   TextColor="White" 
+                   FontFamily="OpenSansSemibold"/>
+        </StackLayout>
+    </NavigationPage.TitleView>
+    
+    <Grid>
+        <ScrollView>
+            <VerticalStackLayout>
+                <Border 
+                   Margin="12"
+                   StrokeThickness="0" 
+                   BackgroundColor="Transparent" 
+                   VerticalOptions="Start">
+                    <Border.Shadow>
+                        <Shadow Brush="Black"
+                                 Offset="0,0"                                     
+                                 Radius="20"                                       
+                                 Opacity="0.2"/>
+                    </Border.Shadow>
+                    <Frame  Padding="15,10,15,15" 
+                            Margin="0" 
+                            BorderColor="Transparent">
+                        <VerticalStackLayout>
+                            <!-- SubTitle -->
+                            <Label FontFamily="OpenSansSemibold"
+                                    Grid.Column="0"
+                                    FontSize="Small"
+                                    Text="Ler caixa de um documento"
+                                    TextColor="{StaticResource ThemeColor1}"
+                                    Margin="0,0,0,0"></Label>
+                            <!-- Doc -->
+                            <Grid Margin="0,0,0,0">
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="*"></ColumnDefinition>
+                                    <ColumnDefinition Width="*"></ColumnDefinition>
+                                    <ColumnDefinition Width="*"></ColumnDefinition>
+                                </Grid.ColumnDefinitions>
+
+                                <Label 
+                                   Grid.Column="0" 
+                                   FontSize="Subtitle"
+                                   Padding="0"
+                                   Text="Documento"
+                                   VerticalOptions="CenterAndExpand"
+                                   HorizontalOptions="Start"/>
+
+                                <Entry Text="{Binding TbDocNum}" 
+                                       Placeholder=""
+                                       Grid.Column="1" 
+                                       IsSpellCheckEnabled="False" 
+                                       IsReadOnly="True"
+                                       Grid.ColumnSpan="2"
+                                       FontSize="Subtitle"
+                                       HorizontalOptions="FillAndExpand"
+                                       BackgroundColor="Transparent"/>
+                            </Grid>
+
+                            <!-- Bin -->
+                            <Grid Margin="0,0,0,0">
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="*"></ColumnDefinition>
+                                    <ColumnDefinition Width="*"></ColumnDefinition>
+                                    <ColumnDefinition Width="*"></ColumnDefinition>
+                                </Grid.ColumnDefinitions>
+
+                                <Label 
+                                    Grid.Column="0" 
+                                    FontSize="Subtitle"
+                                    Padding="0"
+                                    Text="Bin  destino"
+                                    VerticalOptions="CenterAndExpand"
+                                    HorizontalOptions="Start"/>
+
+                                <Entry Text="{Binding TbBin}" 
+                                        Placeholder=""
+                                        Grid.Column="1" 
+                                        IsSpellCheckEnabled="False" 
+                                        Grid.ColumnSpan="2"
+                                        FontSize="Subtitle"
+                                        HorizontalOptions="FillAndExpand"
+                                        BackgroundColor="Transparent"/>
+                            </Grid>
+
+                            <!-- Box Number -->
+                            <Grid Margin="0,0,0,0">
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="2*"></ColumnDefinition>
+                                    <ColumnDefinition Width="*"></ColumnDefinition>
+                                    <ColumnDefinition Width="*"></ColumnDefinition>
+                                </Grid.ColumnDefinitions>
+
+                                <Label 
+                                   Grid.Column="0" 
+                                   FontSize="Subtitle"
+                                   Padding="0"
+                                   Text="Número de caixas"
+                                   VerticalOptions="CenterAndExpand"
+                                   HorizontalOptions="Start"/>
+
+                                <Entry Text="{Binding BoxNumber}" 
+                                       Placeholder=""
+                                       Grid.Column="1" 
+                                       IsReadOnly="True"
+                                       IsSpellCheckEnabled="False" 
+                                       Grid.ColumnSpan="2"
+                                       FontSize="Subtitle"
+                                       HorizontalOptions="FillAndExpand"
+                                       BackgroundColor="Transparent"/>
+                            </Grid>
+
+                        </VerticalStackLayout>
+
+
+                    </Frame>
+                </Border>
+                <!-- Clear Button -->
+                <Button Margin="12,0,12,12"
+                       HeightRequest="50"
+                       BackgroundColor="{StaticResource ThemeColor1}"
+                       Command="{Binding DealocateDoc}"
+                       Text="ALOCAR CAIXAS"
+                       FontFamily="OpenSansSemibold"
+                       FontSize="19"
+                       CornerRadius="5"/>
+
+            </VerticalStackLayout>
+
+        </ScrollView>
+    </Grid>
+</ContentPage>
